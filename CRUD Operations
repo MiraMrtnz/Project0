@@ -1,0 +1,35 @@
+CRUD Operations
+
+
+(read)
+
+db.hikingCollection.find().count()
+
+db.hikingCollection.find().pretty()
+
+db.hikingCollection.find({'Park_Name': 'Joshua Tree National Park'}).pretty()
+
+db.hikingCollection.find({'State': 'CA'},{'Activities': 'hiking'}).pretty()
+
+db.hikingCollection.find({'State': 'CA'},{'Activities': 'hiking'}).limit(5)
+
+
+**Insert
+db.hikingCollection.insert({'Trail_Name': "Amazing New Trail"})
+
+-db.hikingCollection.find().count()
+
+
+db.hikingCollection.find({'Trail_Name': "Amazing New Trail"}).pretty() 
+
+
+db.hikingCollection.deleteOne({'Trail_Name': "Amazing New Trail"})
+
+db.hikingCollection.insert({'Trail_Name': "Amazing New Trail"})
+
+
+db.hikingCollection.updateOne({'Trail_Name': "Amazing New Trail"}, {$set: {'Length': "5 miles"}})
+
+-db.hikingCollection.find({'Trail_Name': "Amazing New Trail"}) 
+- db.hikingCollection.find({'Trail_Name': "Amazing New Trail"}).pretty() 
+
