@@ -14,10 +14,11 @@ Features
     Over 400 hiking trails from various national parks in CA & NY along with trail specific information
     The ability to create your own trail and add it to the application
     The ability to update or delete existing trails and corresponding information
+    
+Improvements:
+    Create more aggregation queries
+    Search for trail with specified user criteria
  
-    Future Improvements:
-        Create more queries that implement aggregations of the data
-        Searching trails based on specific criteria
  
 Project Setup
     Clone this repository to the desired location on your machine
