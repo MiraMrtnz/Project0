@@ -4,7 +4,7 @@ A Scala CLI (Command Line Interface) application. Hiking data is parsed from two
 The files include: Data from over 400 trails in CA and NY national parks, the length of each trail, their difficulty level, and activities available at each location. 
 
 Application Requirements: - Application must perform basic CRUD (Create, Read, Update, Delete) functionality with data stored in a database. 
-- Application must be able to read JSON or CSV files, and store the data contained within those files in a database. 
+- Application able to read JSON or CSV files, and store the data contained within those files in a database. 
 - Application should have a CLI where users can interact with the application while it is running. 
 - Other than those requirements, the kind of application you have is up to you. 
 
